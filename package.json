@@ -1,0 +1,33 @@
+{
+  "name": "git-hook-implementation",
+  "version": "1.0.0",
+  "description": "How to implement git hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekishigee/git-hook-implementation.git"
+  },
+  "keywords": [
+    "git",
+    "hooks"
+  ],
+  "author": "khishigdorj erdenebat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekishigee/git-hook-implementation/issues"
+  },
+  "homepage": "https://github.com/ekishigee/git-hook-implementation#readme",
+  "dependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
